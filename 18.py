@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 import gobject
 import clutter
@@ -78,7 +80,7 @@ class TextureReflection (clutter.Clone):
 
 class AuthorActor:
 
-    AUTHORS = [">> Release Heroes <<", "agorilado puig", "enric", "cappo di tutti", "leader", "rubiojr", "dev_sa", "pelican boy", "ibarrera", "XF", "vivien::droid", "vkalusinski", "zain", "serafin::ldap", "salvatorix", "marc-lasvegas-morata", "maryjane", "j.flores", "abondu", "amontane", "i.vargas", "sergi castro", "alexia", "susana"]
+    AUTHORS = [">> Release Heroes <<", "agorilado puig", "enric", "cappo di tutti", "leader", "rubiojr", "dev_sa", "pelican boy", "nacx", "XF", "vivien::droid", "vkalusinski", "zain", "serafin::ldap", "salvatorix", "marc-lasvegas-morata", "maryjane", "j.flores", "abondu", "amontane", "i.vargas", "sergi castro", "alexia", "susana"]
 
     def __init__(self, stage):
 
